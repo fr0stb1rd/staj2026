@@ -12,25 +12,23 @@ jobs:
   add-labels:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v4
-
       - name: Check issue title format
         id: check_format
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const fs = require('fs');
-            const path = require('path');
-            const workspace = process.env.GITHUB_WORKSPACE || process.cwd();
-            const labelsPath = path.join(workspace, '.github', 'labels.json');
             let labels;
             try {
-              const content = fs.readFileSync(labelsPath, 'utf8');
+              const { data } = await github.rest.repos.getContent({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                path: '.github/labels.json'
+              });
+              const content = Buffer.from(data.content, 'base64').toString('utf8');
               labels = JSON.parse(content);
             } catch (e) {
-              core.setFailed('Labels configuration not found: ' + e.message);
+              core.setFailed('.github/labels.json repoda bulunamıyor veya geçersiz. Dosyayı varsayılan branch\'e ekleyip push edin. Hata: ' + e.message);
               return false;
             }
             if (!labels || Object.keys(labels).length === 0) {
@@ -64,10 +62,12 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const fs = require('fs');
-            const path = require('path');
-            const workspace = process.env.GITHUB_WORKSPACE || process.cwd();
-            const labels = JSON.parse(fs.readFileSync(path.join(workspace, '.github', 'labels.json'), 'utf8'));
+            const { data } = await github.rest.repos.getContent({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              path: '.github/labels.json'
+            });
+            const labels = JSON.parse(Buffer.from(data.content, 'base64').toString('utf8'));
             const issueTitle = context.payload.issue.title;
             const labelGroups = issueTitle.match(/\[([^\]]+)\]/g);
             
@@ -143,10 +143,12 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const fs = require('fs');
-            const path = require('path');
-            const workspace = process.env.GITHUB_WORKSPACE || process.cwd();
-            const fields = JSON.parse(fs.readFileSync(path.join(workspace, '.github', 'labels.json'), 'utf8'));
+            const { data } = await github.rest.repos.getContent({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              path: '.github/labels.json'
+            });
+            const fields = JSON.parse(Buffer.from(data.content, 'base64').toString('utf8'));
             const title = context.payload.issue.title;
             const issue_number = context.issue.number;
             const issue_author = context.payload.issue.user.login;
