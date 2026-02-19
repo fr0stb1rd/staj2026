@@ -1,7 +1,7 @@
 
-# 💻 Staj 2025
+# 💻 Staj 2026
 
-Başta zorunlu staj ihtiyacı olan öğrenci arkadaşlar ile stajyer almak isteyen değerli şirketlerimizi, startupları, ekipleri buluşturan yer.
+Zorunlu staj ihtiyacı olan öğrenci arkadaşların kendini tanıtabileceği, plan yapabileceği ve staj fırsatlarına ulaşabileceği yer. **Odak: öğrencileri öne çıkarmak ve planlama.**
 
 
 <img src="./images/1714633070470.jpeg" alt="staj2024"  height="100">
@@ -15,7 +15,7 @@ Başta zorunlu staj ihtiyacı olan öğrenci arkadaşlar ile stajyer almak istey
   **AD-SOYAD [ALAN][STAJ YERİ][STAJ TİPİ][STAJ SÜRESİ]**
   
 - **Alan** kısmı şu bilgilerden birini veya birden fazlasını içerebilir:  
-  `["mobile", "backend", "frontend", "pm", "qa", "game", "data-science", "database", "embedded", "blockchain"]`
+  `["mobile", "backend", "frontend", "pm", "qa", "game", "data-science", "data-analyst", "database", "embedded", "cyber-security", "blockchain", "system", "networking", "hardware", "sap-abap"]`
   
 - **Staj Yeri** için şu seçeneklerden biri belirtilmelidir:  
   `["uzaktan", "yüzyüze"]`
@@ -24,7 +24,7 @@ Başta zorunlu staj ihtiyacı olan öğrenci arkadaşlar ile stajyer almak istey
   `["zorunlu", "gönüllü"]`
   
 - **Staj Süresi** için şu seçeneklerden biri belirtilmelidir:  
-  `["4-hafta", "6-hafta"]`
+  `["4-hafta", "6-hafta", "8-hafta"]`
   
 - Bu bilgiler dışında başka bir format kabul edilmemektedir. Örneklere bakarak birden fazla giriş yapabilirsiniz.
 
@@ -45,6 +45,14 @@ Veli Bacik 2 [mobile][uzaktan,gönüllü][zorunlu,yüzyüze][4-hafta]
 Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 ```
 
+## 📚 Dokümantasyon
+
+- [Adaylar İçin Detaylı Rehber](docs/applicant-guide.md) – Başvuru süreci ve format kuralları
+- [Deploy ve Test Rehberi](docs/TESTING.md) – GitHub’a deploy sonrası workflow’ları test etmek için adımlar
+- [Katkıda Bulunma](CONTRIBUTING.md) – Projeye nasıl katkıda bulunabilirsiniz
+
+*Şirket başvuru akışı şu an pasif; gerektiğinde tekrar açılabilir.*
+
 ## 🤝 Katkıda Bulunma
 
 ### 📝 Yeni bir alan eklemek istersem ne yapmalıyım?
@@ -56,14 +64,27 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 - Pull request kabul edilir.
 - Yeni bir alan eklenecektir otomatik olarak.
 
-### 📝 Staj fırsatları eklemek istersem ne yapmalıyım?
+### 📝 Staj fırsatları (şirket listesi) eklemek istersem ne yapmalıyım?
 
 - Repo'dan bir clone alınır.
 - [Staj fırsatları olan şirketler](usefull_company.md) açılır ve yeni şirket şablonu okunur.
 - Bu şablona uygun şirketlerin bilgileri eklenir.
-- Bu değişiklikler commit edilir.
-- Pull request oluşturulur.
-- Pull request kabul edildikten sonra usefull_company.md dosyasına yeni bir şirket eklenecektir.
+- Değişiklikler commit edilir, pull request oluşturulur.
+- PR kabul edildikten sonra listeye eklenir. *(Şirket tarafı otomasyonu şu an pasif.)*
+
+## ✨ Öğrencileri Öne Çıkarma ve Planlama
+
+### 📊 Otomatik İstatistikler
+- Her gün istatistikler güncellenir
+- En çok tercih edilen alanlar, lokasyonlar ve staj tipleri README’de görünür
+
+### 📅 Haftalık Özetler
+- Her Pazartesi otomatik haftalık özet (yeni başvurular, trendler)
+- Issues’da `weekly-summary` etiketi ile bulunur
+
+### ✅ Gelişmiş Validasyon
+- Başvuru formatı kontrolü, detaylı hata mesajları ve örnekler
+- Doğru formatta başvuranlar otomatik etiketlenir
 
 ## FAQ
 

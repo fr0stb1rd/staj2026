@@ -21,26 +21,33 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const path = './.github/labels.json';
+            const path = require('path').join(process.cwd(), '.github', 'labels.json');
             try {
-              const content = fs.readFileSync(path);
+              const content = fs.readFileSync(path, 'utf8');
               const labels = JSON.parse(content);
-              return labels;
+              core.setOutput('result', JSON.stringify(labels));
             } catch (error) {
               core.setFailed(`Error reading labels: ${error.message}`);
-              return null;
             }
 
       - name: Check issue title format
         id: check_format
         uses: actions/github-script@v7
+        env:
+          # Tırnak içine alınmazsa JSON içindeki : YAML'da hata verir
+          LABELS_JSON: '${{ steps.labels.outputs.result }}'
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const issueTitle = context.payload.issue.title;
-            const labels = ${{ steps.labels.outputs.result }}
-            
-            if (!labels) {
+            let labels;
+            try {
+              labels = JSON.parse(process.env.LABELS_JSON || '{}');
+            } catch (e) {
+              core.setFailed('Labels configuration not found or invalid JSON');
+              return false;
+            }
+            if (!labels || Object.keys(labels).length === 0) {
               core.setFailed('Labels configuration not found');
               return false;
             }
@@ -67,11 +74,13 @@ jobs:
       - name: Add comment and close issue if format is invalid
         if: ${{ steps.check_format.outputs.result == 'false' }}
         uses: actions/github-script@v7
+        env:
+          LABELS_JSON: '${{ steps.labels.outputs.result }}'
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const issueTitle = context.payload.issue.title;
-            const labels = ${{ steps.labels.outputs.result }};
+            const labels = JSON.parse(process.env.LABELS_JSON || '{}');
             const labelGroups = issueTitle.match(/\[([^\]]+)\]/g);
             
             let errorReason = '';
@@ -95,19 +104,36 @@ jobs:
               }
             }
 
-            const comment = `
-              Merhaba @${context.actor}, bu issue'nun başlığı belirlenen formata uymuyor.
+            // Format örnekleri oluştur
+            const examples = [
+              'Veli Bacik [mobile,backend][uzaktan][zorunlu][4-hafta]',
+              'Ayşe Yılmaz [frontend][yüzyüze][gönüllü][6-hafta]',
+              'Mehmet Demir [pm,qa][uzaktan][zorunlu][4-hafta]',
+              'Zeynep Kaya [data-science][uzaktan][zorunlu][6-hafta]'
+            ];
+            
+            // Geçerli etiketleri göster
+            const validLabelsInfo = Object.entries(labels).map(([field, validLabels]) => {
+              return `**${field}**: ${validLabels.join(', ')}`;
+            }).join('\n');
+            
+            // Başlık düzeltme önerisi
+            let suggestion = '';
+            if (labelGroups && labelGroups.length > 0) {
+              const nameMatch = issueTitle.match(/^([^\[]+)/);
+              const name = nameMatch ? nameMatch[1].trim() : 'Ad Soyad';
+              suggestion = `\n💡 **Önerilen Format:**\n\`${name} [ALAN][STAJ YERİ][STAJ TİPİ][STAJ SÜRESİ]\`\n`;
+            }
 
-              Hata Nedeni:
-              ${errorReason}
-
-              Lütfen başlığı "AD-SOYAD [ALAN][STAJ YERİ][STAJ TİPİ][STAJ SÜRESİ]" formatına uygun hale getirin.
-              
-              Örnekler için:
-              https://github.com/VB10/staj2025#-%C3%B6rnek-ba%C5%9Fvuru-ba%C5%9Fl%C4%B1klar%C4%B1
-              
-              Bu işlemi tamamladıktan sonra issue başlığını güncellemeniz yeterli olacak.
-            `;
+            const comment = '## ⚠️ Format Hatası\n\n' +
+              'Merhaba @' + context.actor + ', bu issue\'nun başlığı belirlenen formata uymuyor.\n\n' +
+              '### 🔍 Hata Nedeni:\n' + errorReason + '\n\n' +
+              '### 📋 Doğru Format:\nBaşlık şu formatta olmalıdır:\n' +
+              '```\nAD-SOYAD [ALAN][STAJ YERİ][STAJ TİPİ][STAJ SÜRESİ]\n```\n\n' +
+              '### ✅ Geçerli Etiketler:\n' + validLabelsInfo + '\n' + suggestion +
+              '### 📝 Örnek Başlıklar:\n' + examples.map(ex => '- `' + ex + '`').join('\n') + '\n\n' +
+              '### 🔗 Daha Fazla Bilgi:\nDetaylı örnekler için [README dosyasını](https://github.com/' + context.repo.owner + '/' + context.repo.repo + '#-örnek-başvuru-başlıkları) inceleyebilirsiniz.\n\n---\n' +
+              '💡 **Not:** Başlığı düzelttikten sonra issue otomatik olarak yeniden açılacaktır.';
             
             await github.rest.issues.createComment({
               owner: context.repo.owner,
@@ -126,6 +152,8 @@ jobs:
       - name: Label the issue
         uses: actions/github-script@v7
         if: ${{ steps.check_format.outputs.result == 'true' }}
+        env:
+          LABELS_JSON: '${{ steps.labels.outputs.result }}'
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
@@ -134,8 +162,8 @@ jobs:
             const issue_author = context.payload.issue.user.login;
             const issueUrl = context.payload.issue.html_url;
             const issueState = context.payload.issue.state;
-            const labelsToAdd = new Set(); // Use Set to avoid duplicates
-            const fields = ${{ steps.labels.outputs.result }}
+            const labelsToAdd = new Set();
+            const fields = JSON.parse(process.env.LABELS_JSON || '{}');
 
             const labelGroups = title.match(/\[([^\]]+)\]/g);
             
@@ -182,11 +210,9 @@ jobs:
                 assignees: [issue_author]
               });
 
-            const comment = `
-              Merhaba @${context.actor}, staj başvurun başarı ile taglendi..
-              Lütfen staj bulduktan sonra buraya gelip kapatmayı unutma.
-              Şimdiden bol şans ve sakın unutma staj ne başlangıç ne son çok çalışmak lazım.
-            `;
+            const comment = 'Merhaba @' + context.actor + ', staj başvurun başarı ile taglendi.. ' +
+              'Lütfen staj bulduktan sonra buraya gelip kapatmayı unutma. ' +
+              'Şimdiden bol şans ve sakın unutma staj ne başlangıç ne son çok çalışmak lazım.';
             await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
