@@ -100,7 +100,7 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 
 ### ⏱️ Staj Süresi Tercihleri
 
-*Son güncelleme: 19.02.2026 21:48*
+*Son güncelleme: 20.02.2026 04:12*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?
