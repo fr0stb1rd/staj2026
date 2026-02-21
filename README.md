@@ -87,20 +87,40 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 - Doğru formatta başvuranlar otomatik etiketlenir
 
 ## 📊 İstatistikler
-**Toplam Başvuru:** 0
-**Son 24 Saat:** 0 başvuru
-**Bu Hafta:** 0 başvuru
-**Bu Ay:** 0 başvuru
+**Toplam Başvuru:** 41
+**Son 24 Saat:** 41 başvuru
+**Bu Hafta:** 41 başvuru
+**Bu Ay:** 41 başvuru
 
 ### 🎯 En Çok Tercih Edilen Alanlar
+1. **backend**: 24 başvuru (58.5%)
+2. **data-science**: 23 başvuru (56.1%)
+3. **data-analyst**: 18 başvuru (43.9%)
+4. **mobile**: 16 başvuru (39.0%)
+5. **frontend**: 13 başvuru (31.7%)
+6. **database**: 12 başvuru (29.3%)
+7. **hardware**: 6 başvuru (14.6%)
+8. **networking**: 5 başvuru (12.2%)
+9. **system**: 5 başvuru (12.2%)
+10. **cyber-security**: 3 başvuru (7.3%)
 
 ### 📍 Staj Yeri Tercihleri
+- **yüzyüze**: 37 başvuru (90.2%)
+- **uzaktan**: 27 başvuru (65.9%)
 
 ### 🎓 Staj Tipi Dağılımı
+- **zorunlu**: 30 başvuru (73.2%)
+- **gönüllü**: 9 başvuru (22.0%)
+- **zorunlu, gönüllü**: 1 başvuru (2.4%)
+- **zorunlu,gönüllü**: 1 başvuru (2.4%)
 
 ### ⏱️ Staj Süresi Tercihleri
+- **4-hafta**: 30 başvuru (73.2%)
+- **8-hafta**: 24 başvuru (58.5%)
+- **6-hafta**: 19 başvuru (46.3%)
+- **[4-hafta**: 1 başvuru (2.4%)
 
-*Son güncelleme: 20.02.2026 04:12*
+*Son güncelleme: 21.02.2026 04:03*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?
