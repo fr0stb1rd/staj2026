@@ -87,41 +87,41 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 - Doğru formatta başvuranlar otomatik etiketlenir
 
 ## 📊 İstatistikler
-**Toplam Başvuru:** 88
-**Son 24 Saat:** 2 başvuru
-**Bu Hafta:** 87 başvuru
-**Bu Ay:** 87 başvuru
+**Toplam Başvuru:** 94
+**Son 24 Saat:** 5 başvuru
+**Bu Hafta:** 93 başvuru
+**Bu Ay:** 93 başvuru
 
 ### 🎯 En Çok Tercih Edilen Alanlar
-1. **backend**: 56 başvuru (63.6%)
-2. **data-science**: 44 başvuru (50.0%)
-3. **data-analyst**: 36 başvuru (40.9%)
-4. **mobile**: 34 başvuru (38.6%)
-5. **frontend**: 26 başvuru (29.5%)
-6. **database**: 26 başvuru (29.5%)
-7. **system**: 14 başvuru (15.9%)
-8. **networking**: 11 başvuru (12.5%)
-9. **embedded**: 9 başvuru (10.2%)
-10. **cyber-security**: 8 başvuru (9.1%)
+1. **backend**: 60 başvuru (63.8%)
+2. **data-science**: 46 başvuru (48.9%)
+3. **data-analyst**: 37 başvuru (39.4%)
+4. **mobile**: 35 başvuru (37.2%)
+5. **database**: 30 başvuru (31.9%)
+6. **frontend**: 29 başvuru (30.9%)
+7. **system**: 15 başvuru (16.0%)
+8. **networking**: 12 başvuru (12.8%)
+9. **embedded**: 9 başvuru (9.6%)
+10. **cyber-security**: 8 başvuru (8.5%)
 
 ### 📍 Staj Yeri Tercihleri
-- **yüzyüze**: 79 başvuru (89.8%)
-- **uzaktan**: 57 başvuru (64.8%)
+- **yüzyüze**: 84 başvuru (89.4%)
+- **uzaktan**: 60 başvuru (63.8%)
 
 ### 🎓 Staj Tipi Dağılımı
-- **zorunlu**: 65 başvuru (73.9%)
-- **gönüllü**: 19 başvuru (21.6%)
+- **zorunlu**: 69 başvuru (73.4%)
+- **gönüllü**: 21 başvuru (22.3%)
 - **gönüllü, zorunlu**: 1 başvuru (1.1%)
 - **zorunlu, gönüllü**: 1 başvuru (1.1%)
 - **zorunlu,gönüllü**: 1 başvuru (1.1%)
 
 ### ⏱️ Staj Süresi Tercihleri
-- **4-hafta**: 60 başvuru (68.2%)
-- **8-hafta**: 44 başvuru (50.0%)
-- **6-hafta**: 35 başvuru (39.8%)
+- **4-hafta**: 63 başvuru (67.0%)
+- **8-hafta**: 46 başvuru (48.9%)
+- **6-hafta**: 39 başvuru (41.5%)
 - **[4-hafta**: 1 başvuru (1.1%)
 
-*Son güncelleme: 26.02.2026 04:12*
+*Son güncelleme: 27.02.2026 04:10*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?
