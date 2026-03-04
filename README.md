@@ -87,41 +87,41 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 - Doğru formatta başvuranlar otomatik etiketlenir
 
 ## 📊 İstatistikler
-**Toplam Başvuru:** 110
+**Toplam Başvuru:** 114
 **Son 24 Saat:** 3 başvuru
-**Bu Hafta:** 26 başvuru
-**Bu Ay:** 109 başvuru
+**Bu Hafta:** 27 başvuru
+**Bu Ay:** 113 başvuru
 
 ### 🎯 En Çok Tercih Edilen Alanlar
-1. **backend**: 72 başvuru (65.5%)
-2. **data-science**: 56 başvuru (50.9%)
-3. **data-analyst**: 45 başvuru (40.9%)
-4. **mobile**: 42 başvuru (38.2%)
-5. **database**: 39 başvuru (35.5%)
-6. **frontend**: 34 başvuru (30.9%)
-7. **system**: 18 başvuru (16.4%)
-8. **networking**: 14 başvuru (12.7%)
-9. **embedded**: 12 başvuru (10.9%)
-10. **cyber-security**: 11 başvuru (10.0%)
+1. **backend**: 75 başvuru (65.8%)
+2. **data-science**: 58 başvuru (50.9%)
+3. **data-analyst**: 46 başvuru (40.4%)
+4. **mobile**: 43 başvuru (37.7%)
+5. **database**: 40 başvuru (35.1%)
+6. **frontend**: 36 başvuru (31.6%)
+7. **system**: 18 başvuru (15.8%)
+8. **networking**: 15 başvuru (13.2%)
+9. **cyber-security**: 13 başvuru (11.4%)
+10. **embedded**: 12 başvuru (10.5%)
 
 ### 📍 Staj Yeri Tercihleri
-- **yüzyüze**: 98 başvuru (89.1%)
-- **uzaktan**: 72 başvuru (65.5%)
+- **yüzyüze**: 101 başvuru (88.6%)
+- **uzaktan**: 76 başvuru (66.7%)
 
 ### 🎓 Staj Tipi Dağılımı
-- **zorunlu**: 78 başvuru (70.9%)
-- **gönüllü**: 25 başvuru (22.7%)
-- **zorunlu,gönüllü**: 3 başvuru (2.7%)
+- **zorunlu**: 80 başvuru (70.2%)
+- **gönüllü**: 26 başvuru (22.8%)
+- **zorunlu,gönüllü**: 4 başvuru (3.5%)
 - **zorunlu, gönüllü**: 2 başvuru (1.8%)
 - **gönüllü, zorunlu**: 1 başvuru (0.9%)
 
 ### ⏱️ Staj Süresi Tercihleri
-- **4-hafta**: 78 başvuru (70.9%)
-- **8-hafta**: 55 başvuru (50.0%)
-- **6-hafta**: 49 başvuru (44.5%)
+- **4-hafta**: 79 başvuru (69.3%)
+- **8-hafta**: 57 başvuru (50.0%)
+- **6-hafta**: 53 başvuru (46.5%)
 - **[4-hafta**: 1 başvuru (0.9%)
 
-*Son güncelleme: 03.03.2026 04:11*
+*Son güncelleme: 04.03.2026 04:05*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?
