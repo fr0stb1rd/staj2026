@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 
 # GitHub API ayarları
-github_repo = "VB10/staj2025"
+github_repo = "VB10/staj2026"
 github_api_url = f"https://api.github.com/repos/{github_repo}/issues"
 
 # Import token from config file
@@ -19,7 +19,7 @@ except ImportError:
     exit()
 
 # LinkedIn paylaşım linki (statik olarak tanımlanıyor)
-linkedin_post_url = "https://www.linkedin.com/posts/veli-bacik-345978a9_370-stajyer-%C3%B6%C4%9Frenci-si%CC%87zi%CC%87-bekliyor-ve-activity-7320044601229172736-lMI9?utm_source=share&utm_medium=member_desktop&rcm=ACoAABcaKuUBuJwj2vB7GRk2JRtQ1navi1AEMwU"
+linkedin_post_url = "https://www.linkedin.com/posts/veli-bacik-345978a9_staj-2026-1-hafta-de%C4%9Ferlendirmesi-activity-7434887106168201216-hZJc"
 
 # En son seçilenlerin bulunduğu dosyanın yolu
 current_date = datetime.now().strftime("%d%b").lower()
@@ -41,6 +41,7 @@ for issue in selected_issues:
         "body": f"Selam {issue['name']}! 🎉\n\n"
                  f"Başvurularını LinkedIn'de paylaştık! \n"
                  f"Göz atmak için tıklayabilirsin: [LinkedIn Postu]({linkedin_post_url}) 📢\n\n"
+                 f"Post altına girip ben buradayım diyerek öne çıkabilir kendine ve diğer adaylarla etkileşime geçebilirsin! 🤝\n\n"
                  f"Başarılar dileriz! 🚀"
     }
     
@@ -51,4 +52,4 @@ for issue in selected_issues:
     if response.status_code == 201:
         print(f"Başarıyla yorum yapıldı: {issue['issue_url']}")
     else:
-        print(f"Yorum eklenirken hata oluştu: {issue['issue_url']} - {response.status_code}")
+        print(f"Yorum eklenirken hata oluştu: {issue['issue_url']} - {response.status_code} - {response.text}")
