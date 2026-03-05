@@ -87,41 +87,41 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 - Doğru formatta başvuranlar otomatik etiketlenir
 
 ## 📊 İstatistikler
-**Toplam Başvuru:** 114
-**Son 24 Saat:** 3 başvuru
-**Bu Hafta:** 27 başvuru
-**Bu Ay:** 113 başvuru
+**Toplam Başvuru:** 121
+**Son 24 Saat:** 7 başvuru
+**Bu Hafta:** 32 başvuru
+**Bu Ay:** 120 başvuru
 
 ### 🎯 En Çok Tercih Edilen Alanlar
-1. **backend**: 75 başvuru (65.8%)
-2. **data-science**: 58 başvuru (50.9%)
-3. **data-analyst**: 46 başvuru (40.4%)
-4. **mobile**: 43 başvuru (37.7%)
-5. **database**: 40 başvuru (35.1%)
-6. **frontend**: 36 başvuru (31.6%)
-7. **system**: 18 başvuru (15.8%)
-8. **networking**: 15 başvuru (13.2%)
-9. **cyber-security**: 13 başvuru (11.4%)
-10. **embedded**: 12 başvuru (10.5%)
+1. **backend**: 81 başvuru (66.9%)
+2. **data-science**: 60 başvuru (49.6%)
+3. **data-analyst**: 46 başvuru (38.0%)
+4. **mobile**: 45 başvuru (37.2%)
+5. **database**: 43 başvuru (35.5%)
+6. **frontend**: 39 başvuru (32.2%)
+7. **system**: 19 başvuru (15.7%)
+8. **networking**: 16 başvuru (13.2%)
+9. **embedded**: 13 başvuru (10.7%)
+10. **cyber-security**: 13 başvuru (10.7%)
 
 ### 📍 Staj Yeri Tercihleri
-- **yüzyüze**: 101 başvuru (88.6%)
-- **uzaktan**: 76 başvuru (66.7%)
+- **yüzyüze**: 108 başvuru (89.3%)
+- **uzaktan**: 81 başvuru (66.9%)
 
 ### 🎓 Staj Tipi Dağılımı
-- **zorunlu**: 80 başvuru (70.2%)
-- **gönüllü**: 26 başvuru (22.8%)
-- **zorunlu,gönüllü**: 4 başvuru (3.5%)
-- **zorunlu, gönüllü**: 2 başvuru (1.8%)
-- **gönüllü, zorunlu**: 1 başvuru (0.9%)
+- **zorunlu**: 87 başvuru (71.9%)
+- **gönüllü**: 26 başvuru (21.5%)
+- **zorunlu,gönüllü**: 4 başvuru (3.3%)
+- **zorunlu, gönüllü**: 2 başvuru (1.7%)
+- **gönüllü, zorunlu**: 1 başvuru (0.8%)
 
 ### ⏱️ Staj Süresi Tercihleri
-- **4-hafta**: 79 başvuru (69.3%)
-- **8-hafta**: 57 başvuru (50.0%)
-- **6-hafta**: 53 başvuru (46.5%)
-- **[4-hafta**: 1 başvuru (0.9%)
+- **4-hafta**: 83 başvuru (68.6%)
+- **8-hafta**: 60 başvuru (49.6%)
+- **6-hafta**: 59 başvuru (48.8%)
+- **[4-hafta**: 1 başvuru (0.8%)
 
-*Son güncelleme: 04.03.2026 04:05*
+*Son güncelleme: 05.03.2026 04:09*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?
