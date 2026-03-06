@@ -87,41 +87,41 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 - Doğru formatta başvuranlar otomatik etiketlenir
 
 ## 📊 İstatistikler
-**Toplam Başvuru:** 121
-**Son 24 Saat:** 7 başvuru
-**Bu Hafta:** 32 başvuru
-**Bu Ay:** 120 başvuru
+**Toplam Başvuru:** 126
+**Son 24 Saat:** 5 başvuru
+**Bu Hafta:** 31 başvuru
+**Bu Ay:** 125 başvuru
 
 ### 🎯 En Çok Tercih Edilen Alanlar
-1. **backend**: 81 başvuru (66.9%)
-2. **data-science**: 60 başvuru (49.6%)
-3. **data-analyst**: 46 başvuru (38.0%)
-4. **mobile**: 45 başvuru (37.2%)
-5. **database**: 43 başvuru (35.5%)
-6. **frontend**: 39 başvuru (32.2%)
-7. **system**: 19 başvuru (15.7%)
-8. **networking**: 16 başvuru (13.2%)
-9. **embedded**: 13 başvuru (10.7%)
-10. **cyber-security**: 13 başvuru (10.7%)
+1. **backend**: 84 başvuru (66.7%)
+2. **data-science**: 62 başvuru (49.2%)
+3. **mobile**: 49 başvuru (38.9%)
+4. **data-analyst**: 47 başvuru (37.3%)
+5. **database**: 44 başvuru (34.9%)
+6. **frontend**: 42 başvuru (33.3%)
+7. **system**: 20 başvuru (15.9%)
+8. **networking**: 16 başvuru (12.7%)
+9. **embedded**: 13 başvuru (10.3%)
+10. **cyber-security**: 13 başvuru (10.3%)
 
 ### 📍 Staj Yeri Tercihleri
-- **yüzyüze**: 108 başvuru (89.3%)
-- **uzaktan**: 81 başvuru (66.9%)
+- **yüzyüze**: 113 başvuru (89.7%)
+- **uzaktan**: 85 başvuru (67.5%)
 
 ### 🎓 Staj Tipi Dağılımı
-- **zorunlu**: 87 başvuru (71.9%)
-- **gönüllü**: 26 başvuru (21.5%)
-- **zorunlu,gönüllü**: 4 başvuru (3.3%)
-- **zorunlu, gönüllü**: 2 başvuru (1.7%)
+- **zorunlu**: 90 başvuru (71.4%)
+- **gönüllü**: 28 başvuru (22.2%)
+- **zorunlu,gönüllü**: 4 başvuru (3.2%)
+- **zorunlu, gönüllü**: 2 başvuru (1.6%)
 - **gönüllü, zorunlu**: 1 başvuru (0.8%)
 
 ### ⏱️ Staj Süresi Tercihleri
-- **4-hafta**: 83 başvuru (68.6%)
-- **8-hafta**: 60 başvuru (49.6%)
-- **6-hafta**: 59 başvuru (48.8%)
+- **4-hafta**: 87 başvuru (69.0%)
+- **8-hafta**: 62 başvuru (49.2%)
+- **6-hafta**: 61 başvuru (48.4%)
 - **[4-hafta**: 1 başvuru (0.8%)
 
-*Son güncelleme: 05.03.2026 04:09*
+*Son güncelleme: 06.03.2026 04:06*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?
