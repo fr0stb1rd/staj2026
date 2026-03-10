@@ -87,41 +87,41 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 - Doğru formatta başvuranlar otomatik etiketlenir
 
 ## 📊 İstatistikler
-**Toplam Başvuru:** 131
-**Son 24 Saat:** 3 başvuru
-**Bu Hafta:** 23 başvuru
-**Bu Ay:** 130 başvuru
+**Toplam Başvuru:** 133
+**Son 24 Saat:** 1 başvuru
+**Bu Hafta:** 21 başvuru
+**Bu Ay:** 131 başvuru
 
 ### 🎯 En Çok Tercih Edilen Alanlar
-1. **backend**: 88 başvuru (67.2%)
-2. **data-science**: 64 başvuru (48.9%)
-3. **mobile**: 51 başvuru (38.9%)
-4. **data-analyst**: 47 başvuru (35.9%)
-5. **frontend**: 46 başvuru (35.1%)
-6. **database**: 45 başvuru (34.4%)
-7. **system**: 20 başvuru (15.3%)
-8. **networking**: 17 başvuru (13.0%)
-9. **embedded**: 13 başvuru (9.9%)
-10. **cyber-security**: 13 başvuru (9.9%)
+1. **backend**: 89 başvuru (66.9%)
+2. **data-science**: 65 başvuru (48.9%)
+3. **mobile**: 51 başvuru (38.3%)
+4. **data-analyst**: 48 başvuru (36.1%)
+5. **frontend**: 46 başvuru (34.6%)
+6. **database**: 45 başvuru (33.8%)
+7. **system**: 20 başvuru (15.0%)
+8. **networking**: 18 başvuru (13.5%)
+9. **cyber-security**: 14 başvuru (10.5%)
+10. **embedded**: 13 başvuru (9.8%)
 
 ### 📍 Staj Yeri Tercihleri
-- **yüzyüze**: 118 başvuru (90.1%)
-- **uzaktan**: 88 başvuru (67.2%)
+- **yüzyüze**: 119 başvuru (89.5%)
+- **uzaktan**: 88 başvuru (66.2%)
 
 ### 🎓 Staj Tipi Dağılımı
-- **zorunlu**: 95 başvuru (72.5%)
-- **gönüllü**: 28 başvuru (21.4%)
-- **zorunlu,gönüllü**: 4 başvuru (3.1%)
+- **zorunlu**: 96 başvuru (72.2%)
+- **gönüllü**: 28 başvuru (21.1%)
+- **zorunlu,gönüllü**: 4 başvuru (3.0%)
 - **zorunlu, gönüllü**: 2 başvuru (1.5%)
 - **gönüllü, zorunlu**: 1 başvuru (0.8%)
 
 ### ⏱️ Staj Süresi Tercihleri
-- **4-hafta**: 93 başvuru (71.0%)
-- **6-hafta**: 62 başvuru (47.3%)
-- **8-hafta**: 62 başvuru (47.3%)
+- **4-hafta**: 93 başvuru (69.9%)
+- **8-hafta**: 63 başvuru (47.4%)
+- **6-hafta**: 62 başvuru (46.6%)
 - **[4-hafta**: 1 başvuru (0.8%)
 
-*Son güncelleme: 09.03.2026 04:13*
+*Son güncelleme: 10.03.2026 04:05*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?
