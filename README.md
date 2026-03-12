@@ -87,41 +87,41 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 - Doğru formatta başvuranlar otomatik etiketlenir
 
 ## 📊 İstatistikler
-**Toplam Başvuru:** 136
-**Son 24 Saat:** 3 başvuru
-**Bu Hafta:** 21 başvuru
-**Bu Ay:** 134 başvuru
+**Toplam Başvuru:** 137
+**Son 24 Saat:** 1 başvuru
+**Bu Hafta:** 15 başvuru
+**Bu Ay:** 135 başvuru
 
 ### 🎯 En Çok Tercih Edilen Alanlar
-1. **backend**: 92 başvuru (67.6%)
-2. **data-science**: 67 başvuru (49.3%)
-3. **mobile**: 52 başvuru (38.2%)
-4. **data-analyst**: 49 başvuru (36.0%)
-5. **frontend**: 47 başvuru (34.6%)
-6. **database**: 46 başvuru (33.8%)
-7. **system**: 20 başvuru (14.7%)
-8. **networking**: 18 başvuru (13.2%)
-9. **cyber-security**: 14 başvuru (10.3%)
-10. **embedded**: 13 başvuru (9.6%)
+1. **backend**: 92 başvuru (67.2%)
+2. **data-science**: 68 başvuru (49.6%)
+3. **mobile**: 53 başvuru (38.7%)
+4. **data-analyst**: 50 başvuru (36.5%)
+5. **frontend**: 48 başvuru (35.0%)
+6. **database**: 46 başvuru (33.6%)
+7. **system**: 20 başvuru (14.6%)
+8. **networking**: 18 başvuru (13.1%)
+9. **cyber-security**: 14 başvuru (10.2%)
+10. **embedded**: 13 başvuru (9.5%)
 
 ### 📍 Staj Yeri Tercihleri
-- **yüzyüze**: 122 başvuru (89.7%)
-- **uzaktan**: 90 başvuru (66.2%)
+- **yüzyüze**: 123 başvuru (89.8%)
+- **uzaktan**: 91 başvuru (66.4%)
 
 ### 🎓 Staj Tipi Dağılımı
-- **zorunlu**: 99 başvuru (72.8%)
-- **gönüllü**: 28 başvuru (20.6%)
+- **zorunlu**: 100 başvuru (73.0%)
+- **gönüllü**: 28 başvuru (20.4%)
 - **zorunlu,gönüllü**: 4 başvuru (2.9%)
 - **zorunlu, gönüllü**: 2 başvuru (1.5%)
 - **gönüllü, zorunlu**: 1 başvuru (0.7%)
 
 ### ⏱️ Staj Süresi Tercihleri
-- **4-hafta**: 96 başvuru (70.6%)
-- **8-hafta**: 65 başvuru (47.8%)
-- **6-hafta**: 62 başvuru (45.6%)
+- **4-hafta**: 97 başvuru (70.8%)
+- **8-hafta**: 65 başvuru (47.4%)
+- **6-hafta**: 62 başvuru (45.3%)
 - **[4-hafta**: 1 başvuru (0.7%)
 
-*Son güncelleme: 11.03.2026 04:06*
+*Son güncelleme: 12.03.2026 04:10*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?
