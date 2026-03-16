@@ -1,12 +1,12 @@
 {
-    "id": 3971881271,
-    "name": "Talha Pakdil",
-    "issue_url": "https://github.com/VB10/staj2026/issues/60",
-    "duration": "4-hafta",
-    "location": "uzaktan,yüzyüze",
-    "intern_type": "zorunlu",
-    "category": "mobile,backend,frontend",
-    "page": 1,
-    "folderName": "04mar",
-    "totalCount": 50
+    "id": 4003482720,
+    "name": "Yavuz Murat YILDIRIM",
+    "issue_url": "https://github.com/VB10/staj2026/issues/121",
+    "duration": "6-hafta",
+    "location": "uzaktan",
+    "intern_type": "gönüllü",
+    "category": "backend,mobile,frontend,data-science,database",
+    "page": 3,
+    "folderName": "16mar",
+    "totalCount": 100
 }
