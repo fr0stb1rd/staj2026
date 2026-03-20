@@ -88,8 +88,8 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 
 ## 📊 İstatistikler
 **Toplam Başvuru:** 146
-**Son 24 Saat:** 1 başvuru
-**Bu Hafta:** 10 başvuru
+**Son 24 Saat:** 0 başvuru
+**Bu Hafta:** 9 başvuru
 **Bu Ay:** 143 başvuru
 
 ### 🎯 En Çok Tercih Edilen Alanlar
@@ -121,7 +121,7 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 - **8-hafta**: 68 başvuru (46.6%)
 - **[4-hafta**: 1 başvuru (0.7%)
 
-*Son güncelleme: 19.03.2026 04:21*
+*Son güncelleme: 20.03.2026 04:11*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?

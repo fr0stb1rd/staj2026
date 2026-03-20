@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T04:21:19.556418",
+  "generated_at": "2026-03-20T04:11:00.744267",
   "total_applications": 146,
   "categories": {
     "mobile": 56,
@@ -39,7 +39,7 @@
     "4-hafta": 102,
     "[4-hafta": 1
   },
-  "recent_applications": 1,
-  "this_week_applications": 10,
+  "recent_applications": 0,
+  "this_week_applications": 9,
   "this_month_applications": 143
 }
