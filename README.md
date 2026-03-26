@@ -87,41 +87,41 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 - Doğru formatta başvuranlar otomatik etiketlenir
 
 ## 📊 İstatistikler
-**Toplam Başvuru:** 147
-**Son 24 Saat:** 0 başvuru
-**Bu Hafta:** 1 başvuru
-**Bu Ay:** 67 başvuru
+**Toplam Başvuru:** 149
+**Son 24 Saat:** 2 başvuru
+**Bu Hafta:** 2 başvuru
+**Bu Ay:** 63 başvuru
 
 ### 🎯 En Çok Tercih Edilen Alanlar
-1. **backend**: 99 başvuru (67.3%)
-2. **data-science**: 69 başvuru (46.9%)
-3. **mobile**: 56 başvuru (38.1%)
-4. **frontend**: 52 başvuru (35.4%)
-5. **data-analyst**: 52 başvuru (35.4%)
-6. **database**: 48 başvuru (32.7%)
-7. **system**: 21 başvuru (14.3%)
-8. **networking**: 20 başvuru (13.6%)
-9. **embedded**: 17 başvuru (11.6%)
-10. **cyber-security**: 14 başvuru (9.5%)
+1. **backend**: 101 başvuru (67.8%)
+2. **data-science**: 70 başvuru (47.0%)
+3. **mobile**: 57 başvuru (38.3%)
+4. **data-analyst**: 53 başvuru (35.6%)
+5. **frontend**: 53 başvuru (35.6%)
+6. **database**: 48 başvuru (32.2%)
+7. **system**: 21 başvuru (14.1%)
+8. **networking**: 20 başvuru (13.4%)
+9. **embedded**: 17 başvuru (11.4%)
+10. **cyber-security**: 14 başvuru (9.4%)
 
 ### 📍 Staj Yeri Tercihleri
-- **yüzyüze**: 131 başvuru (89.1%)
-- **uzaktan**: 94 başvuru (63.9%)
+- **yüzyüze**: 133 başvuru (89.3%)
+- **uzaktan**: 94 başvuru (63.1%)
 
 ### 🎓 Staj Tipi Dağılımı
-- **zorunlu**: 107 başvuru (72.8%)
-- **gönüllü**: 29 başvuru (19.7%)
+- **zorunlu**: 109 başvuru (73.2%)
+- **gönüllü**: 29 başvuru (19.5%)
 - **zorunlu,gönüllü**: 4 başvuru (2.7%)
-- **zorunlu, gönüllü**: 2 başvuru (1.4%)
+- **zorunlu, gönüllü**: 2 başvuru (1.3%)
 - **gönüllü, zorunlu**: 1 başvuru (0.7%)
 
 ### ⏱️ Staj Süresi Tercihleri
-- **4-hafta**: 102 başvuru (69.4%)
-- **6-hafta**: 68 başvuru (46.3%)
-- **8-hafta**: 68 başvuru (46.3%)
+- **4-hafta**: 103 başvuru (69.1%)
+- **8-hafta**: 70 başvuru (47.0%)
+- **6-hafta**: 69 başvuru (46.3%)
 - **[4-hafta**: 1 başvuru (0.7%)
 
-*Son güncelleme: 25.03.2026 04:17*
+*Son güncelleme: 26.03.2026 04:30*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?
