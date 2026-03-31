@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-30T04:42:22.333345",
-  "total_applications": 150,
+  "generated_at": "2026-03-31T04:33:50.309893",
+  "total_applications": 151,
   "categories": {
     "mobile": 58,
     "backend": 102,
@@ -41,5 +41,5 @@
   },
   "recent_applications": 0,
   "this_week_applications": 3,
-  "this_month_applications": 48
+  "this_month_applications": 44
 }

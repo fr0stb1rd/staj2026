@@ -87,41 +87,41 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 - Doğru formatta başvuranlar otomatik etiketlenir
 
 ## 📊 İstatistikler
-**Toplam Başvuru:** 150
+**Toplam Başvuru:** 151
 **Son 24 Saat:** 0 başvuru
 **Bu Hafta:** 3 başvuru
-**Bu Ay:** 48 başvuru
+**Bu Ay:** 44 başvuru
 
 ### 🎯 En Çok Tercih Edilen Alanlar
-1. **backend**: 102 başvuru (68.0%)
-2. **data-science**: 71 başvuru (47.3%)
-3. **mobile**: 58 başvuru (38.7%)
-4. **data-analyst**: 54 başvuru (36.0%)
-5. **frontend**: 53 başvuru (35.3%)
-6. **database**: 49 başvuru (32.7%)
-7. **system**: 21 başvuru (14.0%)
-8. **networking**: 20 başvuru (13.3%)
+1. **backend**: 102 başvuru (67.5%)
+2. **data-science**: 71 başvuru (47.0%)
+3. **mobile**: 58 başvuru (38.4%)
+4. **data-analyst**: 54 başvuru (35.8%)
+5. **frontend**: 53 başvuru (35.1%)
+6. **database**: 49 başvuru (32.5%)
+7. **system**: 21 başvuru (13.9%)
+8. **networking**: 20 başvuru (13.2%)
 9. **embedded**: 17 başvuru (11.3%)
 10. **cyber-security**: 14 başvuru (9.3%)
 
 ### 📍 Staj Yeri Tercihleri
-- **yüzyüze**: 134 başvuru (89.3%)
-- **uzaktan**: 95 başvuru (63.3%)
+- **yüzyüze**: 134 başvuru (88.7%)
+- **uzaktan**: 95 başvuru (62.9%)
 
 ### 🎓 Staj Tipi Dağılımı
-- **zorunlu**: 109 başvuru (72.7%)
-- **gönüllü**: 29 başvuru (19.3%)
+- **zorunlu**: 109 başvuru (72.2%)
+- **gönüllü**: 29 başvuru (19.2%)
 - **zorunlu,gönüllü**: 5 başvuru (3.3%)
 - **zorunlu, gönüllü**: 2 başvuru (1.3%)
 - **gönüllü, zorunlu**: 1 başvuru (0.7%)
 
 ### ⏱️ Staj Süresi Tercihleri
-- **4-hafta**: 104 başvuru (69.3%)
-- **8-hafta**: 71 başvuru (47.3%)
-- **6-hafta**: 70 başvuru (46.7%)
+- **4-hafta**: 104 başvuru (68.9%)
+- **8-hafta**: 71 başvuru (47.0%)
+- **6-hafta**: 70 başvuru (46.4%)
 - **[4-hafta**: 1 başvuru (0.7%)
 
-*Son güncelleme: 30.03.2026 04:42*
+*Son güncelleme: 31.03.2026 04:33*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?
