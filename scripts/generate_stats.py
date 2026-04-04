@@ -51,15 +51,14 @@ def parse_issue_title(title):
     name, category, location, intern_type, duration = match.groups()
 
     def clean_and_split(text):
-        cleaned_text = text.replace('[', '').replace(']', '')
-        return [item.strip() for item in cleaned_text.split(',')] if cleaned_text else []
+        return [item.strip() for item in text.replace('[', '').replace(']', '').split(',') if item.strip()]
 
     return {
         "name": name.strip(),
-        "category": [c for c in clean_and_split(category) if c],
-        "location": [l for l in clean_and_split(location) if l],
-        "intern_type": [it for it in clean_and_split(intern_type) if it],
-        "duration": [d for d in clean_and_split(duration) if d]
+        "category": clean_and_split(category),
+        "location": clean_and_split(location),
+        "intern_type": clean_and_split(intern_type),
+        "duration": clean_and_split(duration)
     }
 
 def fetch_all_issues():
