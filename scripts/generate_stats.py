@@ -49,12 +49,17 @@ def parse_issue_title(title):
         return None
     
     name, category, location, intern_type, duration = match.groups()
+
+    def clean_and_split(text):
+        cleaned_text = text.replace('[', '').replace(']', '')
+        return [item.strip() for item in cleaned_text.split(',')] if cleaned_text else []
+
     return {
         "name": name.strip(),
-        "category": [c.strip() for c in category.split(",")],
-        "location": [l.strip() for l in location.split(",")],
-        "intern_type": intern_type.strip(),
-        "duration": [d.strip() for d in duration.split(",")]
+        "category": [c for c in clean_and_split(category) if c],
+        "location": [l for l in clean_and_split(location) if l],
+        "intern_type": [it for it in clean_and_split(intern_type) if it],
+        "duration": [d for d in clean_and_split(duration) if d]
     }
 
 def fetch_all_issues():
@@ -127,7 +132,8 @@ def calculate_statistics(issues):
             stats["locations"][loc] += 1
         
         # Staj tipi
-        stats["intern_types"][parsed["intern_type"]] += 1
+        for itype in parsed["intern_type"]:
+            stats["intern_types"][itype] += 1
         
         # Süreler
         for dur in parsed["duration"]:

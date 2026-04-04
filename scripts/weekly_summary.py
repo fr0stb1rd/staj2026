@@ -49,12 +49,17 @@ def parse_issue_title(title):
         return None
     
     name, category, location, intern_type, duration = match.groups()
+
+    def clean_and_split(text):
+        cleaned_text = text.replace('[', '').replace(']', '')
+        return [item.strip() for item in cleaned_text.split(',')] if cleaned_text else []
+
     return {
         "name": name.strip(),
-        "category": [c.strip() for c in category.split(",")],
-        "location": [l.strip() for l in location.split(",")],
-        "intern_type": intern_type.strip(),
-        "duration": [d.strip() for d in duration.split(",")]
+        "category": [c for c in clean_and_split(category) if c],
+        "location": [l for l in clean_and_split(location) if l],
+        "intern_type": [it for it in clean_and_split(intern_type) if it],
+        "duration": [d for d in clean_and_split(duration) if d]
     }
 
 def fetch_issues_since(since_date):
@@ -135,7 +140,8 @@ def calculate_weekly_stats(issues):
         for loc in parsed["location"]:
             stats["locations"][loc] += 1
         
-        stats["intern_types"][parsed["intern_type"]] += 1
+        for itype in parsed["intern_type"]:
+            stats["intern_types"][itype] += 1
         
         for dur in parsed["duration"]:
             stats["durations"][dur] += 1
@@ -238,9 +244,16 @@ def create_discussion(title, body):
 
 def main():
     # Bu haftanın başlangıcı (Pazartesi)
+    # Bugün Pazartesi ise, geçen haftanın özetini çıkarmak için 7 gün geriye git.
+    # Pazartesi değilse, bu haftanın Pazartesisinden başla.
     today = datetime.now()
     days_since_monday = today.weekday()
-    week_start = today - timedelta(days=days_since_monday)
+
+    if days_since_monday == 0:
+        week_start = today - timedelta(days=7)
+    else:
+        week_start = today - timedelta(days=days_since_monday)
+
     week_start = week_start.replace(hour=0, minute=0, second=0, microsecond=0)
     week_end = datetime.now()
     
