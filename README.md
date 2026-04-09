@@ -87,41 +87,41 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 - Doğru formatta başvuranlar otomatik etiketlenir
 
 ## 📊 İstatistikler
-**Toplam Başvuru:** 157
-**Son 24 Saat:** 2 başvuru
-**Bu Hafta:** 4 başvuru
+**Toplam Başvuru:** 158
+**Son 24 Saat:** 1 başvuru
+**Bu Hafta:** 5 başvuru
 **Bu Ay:** 23 başvuru
 
 ### 🎯 En Çok Tercih Edilen Alanlar
-1. **backend**: 107 başvuru (68.2%)
-2. **data-science**: 72 başvuru (45.9%)
-3. **mobile**: 61 başvuru (38.9%)
-4. **data-analyst**: 55 başvuru (35.0%)
-5. **frontend**: 55 başvuru (35.0%)
-6. **database**: 49 başvuru (31.2%)
-7. **networking**: 22 başvuru (14.0%)
-8. **system**: 22 başvuru (14.0%)
-9. **embedded**: 18 başvuru (11.5%)
-10. **cyber-security**: 16 başvuru (10.2%)
+1. **backend**: 108 başvuru (68.4%)
+2. **data-science**: 73 başvuru (46.2%)
+3. **mobile**: 62 başvuru (39.2%)
+4. **frontend**: 56 başvuru (35.4%)
+5. **data-analyst**: 55 başvuru (34.8%)
+6. **database**: 49 başvuru (31.0%)
+7. **networking**: 22 başvuru (13.9%)
+8. **system**: 22 başvuru (13.9%)
+9. **embedded**: 18 başvuru (11.4%)
+10. **cyber-security**: 16 başvuru (10.1%)
 
 ### 📍 Staj Yeri Tercihleri
-- **yüzyüze**: 139 başvuru (88.5%)
-- **uzaktan**: 98 başvuru (62.4%)
+- **yüzyüze**: 140 başvuru (88.6%)
+- **uzaktan**: 98 başvuru (62.0%)
 
 ### 🎓 Staj Tipi Dağılımı
-- **zorunlu**: 114 başvuru (72.6%)
-- **gönüllü**: 29 başvuru (18.5%)
+- **zorunlu**: 115 başvuru (72.8%)
+- **gönüllü**: 29 başvuru (18.4%)
 - **zorunlu,gönüllü**: 5 başvuru (3.2%)
 - **zorunlu, gönüllü**: 2 başvuru (1.3%)
 - **gönüllü, zorunlu**: 1 başvuru (0.6%)
 
 ### ⏱️ Staj Süresi Tercihleri
-- **4-hafta**: 109 başvuru (69.4%)
-- **8-hafta**: 71 başvuru (45.2%)
-- **6-hafta**: 70 başvuru (44.6%)
+- **4-hafta**: 109 başvuru (69.0%)
+- **8-hafta**: 72 başvuru (45.6%)
+- **6-hafta**: 70 başvuru (44.3%)
 - **[4-hafta**: 1 başvuru (0.6%)
 
-*Son güncelleme: 08.04.2026 04:34*
+*Son güncelleme: 09.04.2026 04:31*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?
