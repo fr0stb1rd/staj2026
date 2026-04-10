@@ -19,7 +19,7 @@ except ImportError:
     exit()
 
 # LinkedIn paylaşım linki (statik olarak tanımlanıyor)
-linkedin_post_url = "https://www.linkedin.com/posts/veli-bacik-345978a9_staj-2026-2-hafta-de%C4%9Ferlendirmesi-activity-7439240636785942529-Zw1P"
+linkedin_post_url = "https://www.linkedin.com/posts/veli-bacik-345978a9_staj-2026-3-hafta-de%C4%9Ferlendirmesi-activity-7445740391338901504-Om-8?utm_source=share&utm_medium=member_desktop&rcm=ACoAABcaKuUBuJwj2vB7GRk2JRtQ1navi1AEMwU"
 
 # En son seçilenlerin bulunduğu dosyanın yolu
 current_date = datetime.now().strftime("%d%b").lower()

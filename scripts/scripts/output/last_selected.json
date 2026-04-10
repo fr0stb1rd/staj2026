@@ -1,12 +1,12 @@
 {
-    "id": 4003482720,
-    "name": "Yavuz Murat YILDIRIM",
-    "issue_url": "https://github.com/VB10/staj2026/issues/121",
-    "duration": "6-hafta",
-    "location": "uzaktan",
-    "intern_type": "gönüllü",
-    "category": "backend,mobile,frontend,data-science,database",
-    "page": 3,
-    "folderName": "16mar",
-    "totalCount": 100
+    "id": 4135079086,
+    "name": "Ömer Basmacı",
+    "issue_url": "https://github.com/VB10/staj2026/issues/183",
+    "duration": "8-hafta",
+    "location": "yüzyüze",
+    "intern_type": "zorunlu",
+    "category": "mobile,backend,frontend",
+    "page": 4,
+    "folderName": "03apr",
+    "totalCount": 150
 }
