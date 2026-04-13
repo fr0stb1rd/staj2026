@@ -121,7 +121,7 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 - **6-hafta**: 70 başvuru (44.0%)
 - **[4-hafta**: 1 başvuru (0.6%)
 
-*Son güncelleme: 12.04.2026 04:44*
+*Son güncelleme: 13.04.2026 04:55*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?
