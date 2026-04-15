@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-04-14T04:42:58.082721",
-  "total_applications": 176,
+  "generated_at": "2026-04-15T04:43:09.204741",
+  "total_applications": 180,
   "categories": {
-    "system": 26,
+    "mobile": 74,
+    "backend": 122,
+    "frontend": 60,
+    "game": 15,
+    "blockchain": 6,
+    "database": 56,
+    "computer-vision": 10,
+    "data-science": 80,
+    "data-analyst": 61,
+    "embedded": 21,
+    "cyber-security": 24,
+    "system": 27,
+    "hardware": 16,
     "networking": 26,
-    "hardware": 15,
-    "backend": 119,
-    "mobile": 71,
-    "data-science": 78,
-    "database": 54,
-    "embedded": 20,
-    "cyber-security": 23,
-    "game": 14,
-    "frontend": 59,
-    "computer-vision": 9,
-    "data-analyst": 59,
     "": 3,
     "devops": 8,
     "qa": 6,
     "sap-abap": 3,
-    "pm": 6,
-    "blockchain": 5
+    "pm": 6
   },
   "locations": {
-    "yüzyüze": 154,
-    "uzaktan": 109
+    "yüzyüze": 157,
+    "uzaktan": 112
   },
   "intern_types": {
-    "zorunlu": 128,
-    "gönüllü": 32,
+    "zorunlu": 131,
+    "gönüllü": 33,
     "zorunlu,gönüllü": 6,
     "zorunlu, gönüllü": 2,
     "gönüllü, zorunlu": 1
   },
   "durations": {
-    "6-hafta": 76,
-    "8-hafta": 76,
-    "4-hafta": 122,
+    "4-hafta": 124,
+    "6-hafta": 78,
+    "8-hafta": 79,
     "[4-hafta": 1
   },
-  "recent_applications": 16,
-  "this_week_applications": 21,
-  "this_month_applications": 36
+  "recent_applications": 4,
+  "this_week_applications": 23,
+  "this_month_applications": 40
 }

@@ -87,41 +87,41 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 - Doğru formatta başvuranlar otomatik etiketlenir
 
 ## 📊 İstatistikler
-**Toplam Başvuru:** 176
-**Son 24 Saat:** 16 başvuru
-**Bu Hafta:** 21 başvuru
-**Bu Ay:** 36 başvuru
+**Toplam Başvuru:** 180
+**Son 24 Saat:** 4 başvuru
+**Bu Hafta:** 23 başvuru
+**Bu Ay:** 40 başvuru
 
 ### 🎯 En Çok Tercih Edilen Alanlar
-1. **backend**: 119 başvuru (67.6%)
-2. **data-science**: 78 başvuru (44.3%)
-3. **mobile**: 71 başvuru (40.3%)
-4. **frontend**: 59 başvuru (33.5%)
-5. **data-analyst**: 59 başvuru (33.5%)
-6. **database**: 54 başvuru (30.7%)
-7. **system**: 26 başvuru (14.8%)
-8. **networking**: 26 başvuru (14.8%)
-9. **cyber-security**: 23 başvuru (13.1%)
-10. **embedded**: 20 başvuru (11.4%)
+1. **backend**: 122 başvuru (67.8%)
+2. **data-science**: 80 başvuru (44.4%)
+3. **mobile**: 74 başvuru (41.1%)
+4. **data-analyst**: 61 başvuru (33.9%)
+5. **frontend**: 60 başvuru (33.3%)
+6. **database**: 56 başvuru (31.1%)
+7. **system**: 27 başvuru (15.0%)
+8. **networking**: 26 başvuru (14.4%)
+9. **cyber-security**: 24 başvuru (13.3%)
+10. **embedded**: 21 başvuru (11.7%)
 
 ### 📍 Staj Yeri Tercihleri
-- **yüzyüze**: 154 başvuru (87.5%)
-- **uzaktan**: 109 başvuru (61.9%)
+- **yüzyüze**: 157 başvuru (87.2%)
+- **uzaktan**: 112 başvuru (62.2%)
 
 ### 🎓 Staj Tipi Dağılımı
-- **zorunlu**: 128 başvuru (72.7%)
-- **gönüllü**: 32 başvuru (18.2%)
-- **zorunlu,gönüllü**: 6 başvuru (3.4%)
+- **zorunlu**: 131 başvuru (72.8%)
+- **gönüllü**: 33 başvuru (18.3%)
+- **zorunlu,gönüllü**: 6 başvuru (3.3%)
 - **zorunlu, gönüllü**: 2 başvuru (1.1%)
 - **gönüllü, zorunlu**: 1 başvuru (0.6%)
 
 ### ⏱️ Staj Süresi Tercihleri
-- **4-hafta**: 122 başvuru (69.3%)
-- **6-hafta**: 76 başvuru (43.2%)
-- **8-hafta**: 76 başvuru (43.2%)
+- **4-hafta**: 124 başvuru (68.9%)
+- **8-hafta**: 79 başvuru (43.9%)
+- **6-hafta**: 78 başvuru (43.3%)
 - **[4-hafta**: 1 başvuru (0.6%)
 
-*Son güncelleme: 14.04.2026 04:42*
+*Son güncelleme: 15.04.2026 04:43*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?
