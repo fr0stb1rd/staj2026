@@ -87,41 +87,41 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 - Doğru formatta başvuranlar otomatik etiketlenir
 
 ## 📊 İstatistikler
-**Toplam Başvuru:** 180
-**Son 24 Saat:** 4 başvuru
-**Bu Hafta:** 23 başvuru
-**Bu Ay:** 40 başvuru
+**Toplam Başvuru:** 185
+**Son 24 Saat:** 6 başvuru
+**Bu Hafta:** 28 başvuru
+**Bu Ay:** 39 başvuru
 
 ### 🎯 En Çok Tercih Edilen Alanlar
-1. **backend**: 122 başvuru (67.8%)
-2. **data-science**: 80 başvuru (44.4%)
-3. **mobile**: 74 başvuru (41.1%)
-4. **data-analyst**: 61 başvuru (33.9%)
-5. **frontend**: 60 başvuru (33.3%)
-6. **database**: 56 başvuru (31.1%)
-7. **system**: 27 başvuru (15.0%)
-8. **networking**: 26 başvuru (14.4%)
-9. **cyber-security**: 24 başvuru (13.3%)
-10. **embedded**: 21 başvuru (11.7%)
+1. **backend**: 125 başvuru (67.6%)
+2. **data-science**: 80 başvuru (43.2%)
+3. **mobile**: 77 başvuru (41.6%)
+4. **data-analyst**: 61 başvuru (33.0%)
+5. **frontend**: 60 başvuru (32.4%)
+6. **database**: 58 başvuru (31.4%)
+7. **networking**: 29 başvuru (15.7%)
+8. **cyber-security**: 28 başvuru (15.1%)
+9. **system**: 28 başvuru (15.1%)
+10. **embedded**: 21 başvuru (11.4%)
 
 ### 📍 Staj Yeri Tercihleri
-- **yüzyüze**: 157 başvuru (87.2%)
-- **uzaktan**: 112 başvuru (62.2%)
+- **yüzyüze**: 162 başvuru (87.6%)
+- **uzaktan**: 117 başvuru (63.2%)
 
 ### 🎓 Staj Tipi Dağılımı
-- **zorunlu**: 131 başvuru (72.8%)
-- **gönüllü**: 33 başvuru (18.3%)
-- **zorunlu,gönüllü**: 6 başvuru (3.3%)
+- **zorunlu**: 136 başvuru (73.5%)
+- **gönüllü**: 33 başvuru (17.8%)
+- **zorunlu,gönüllü**: 6 başvuru (3.2%)
 - **zorunlu, gönüllü**: 2 başvuru (1.1%)
-- **gönüllü, zorunlu**: 1 başvuru (0.6%)
+- **gönüllü, zorunlu**: 1 başvuru (0.5%)
 
 ### ⏱️ Staj Süresi Tercihleri
-- **4-hafta**: 124 başvuru (68.9%)
-- **8-hafta**: 79 başvuru (43.9%)
-- **6-hafta**: 78 başvuru (43.3%)
-- **[4-hafta**: 1 başvuru (0.6%)
+- **4-hafta**: 125 başvuru (67.6%)
+- **8-hafta**: 82 başvuru (44.3%)
+- **6-hafta**: 82 başvuru (44.3%)
+- **[4-hafta**: 1 başvuru (0.5%)
 
-*Son güncelleme: 15.04.2026 04:43*
+*Son güncelleme: 16.04.2026 04:48*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?
