@@ -87,41 +87,41 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 - Doğru formatta başvuranlar otomatik etiketlenir
 
 ## 📊 İstatistikler
-**Toplam Başvuru:** 185
-**Son 24 Saat:** 6 başvuru
+**Toplam Başvuru:** 187
+**Son 24 Saat:** 2 başvuru
 **Bu Hafta:** 28 başvuru
-**Bu Ay:** 39 başvuru
+**Bu Ay:** 40 başvuru
 
 ### 🎯 En Çok Tercih Edilen Alanlar
-1. **backend**: 125 başvuru (67.6%)
-2. **data-science**: 80 başvuru (43.2%)
-3. **mobile**: 77 başvuru (41.6%)
-4. **data-analyst**: 61 başvuru (33.0%)
-5. **frontend**: 60 başvuru (32.4%)
-6. **database**: 58 başvuru (31.4%)
-7. **networking**: 29 başvuru (15.7%)
-8. **cyber-security**: 28 başvuru (15.1%)
-9. **system**: 28 başvuru (15.1%)
-10. **embedded**: 21 başvuru (11.4%)
+1. **backend**: 127 başvuru (67.9%)
+2. **data-science**: 81 başvuru (43.3%)
+3. **mobile**: 78 başvuru (41.7%)
+4. **frontend**: 62 başvuru (33.2%)
+5. **data-analyst**: 62 başvuru (33.2%)
+6. **database**: 59 başvuru (31.6%)
+7. **networking**: 30 başvuru (16.0%)
+8. **system**: 29 başvuru (15.5%)
+9. **cyber-security**: 28 başvuru (15.0%)
+10. **embedded**: 21 başvuru (11.2%)
 
 ### 📍 Staj Yeri Tercihleri
-- **yüzyüze**: 162 başvuru (87.6%)
-- **uzaktan**: 117 başvuru (63.2%)
+- **yüzyüze**: 164 başvuru (87.7%)
+- **uzaktan**: 118 başvuru (63.1%)
 
 ### 🎓 Staj Tipi Dağılımı
-- **zorunlu**: 136 başvuru (73.5%)
-- **gönüllü**: 33 başvuru (17.8%)
+- **zorunlu**: 138 başvuru (73.8%)
+- **gönüllü**: 33 başvuru (17.6%)
 - **zorunlu,gönüllü**: 6 başvuru (3.2%)
 - **zorunlu, gönüllü**: 2 başvuru (1.1%)
 - **gönüllü, zorunlu**: 1 başvuru (0.5%)
 
 ### ⏱️ Staj Süresi Tercihleri
-- **4-hafta**: 125 başvuru (67.6%)
-- **8-hafta**: 82 başvuru (44.3%)
-- **6-hafta**: 82 başvuru (44.3%)
+- **4-hafta**: 127 başvuru (67.9%)
+- **6-hafta**: 83 başvuru (44.4%)
+- **8-hafta**: 83 başvuru (44.4%)
 - **[4-hafta**: 1 başvuru (0.5%)
 
-*Son güncelleme: 16.04.2026 04:48*
+*Son güncelleme: 17.04.2026 04:46*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?
