@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-04-18T04:29:53.427170",
-  "total_applications": 191,
+  "generated_at": "2026-04-19T04:48:01.015912",
+  "total_applications": 193,
   "categories": {
+    "backend": 129,
+    "system": 29,
+    "database": 60,
+    "data-analyst": 65,
+    "data-science": 84,
     "mobile": 79,
-    "data-science": 83,
     "cyber-security": 29,
-    "backend": 128,
     "frontend": 63,
-    "data-analyst": 63,
-    "database": 58,
-    "system": 28,
     "networking": 30,
     "devops": 9,
     "computer-vision": 13,
@@ -23,23 +23,23 @@
     "pm": 6
   },
   "locations": {
-    "uzaktan": 120,
-    "yüzyüze": 168
+    "yüzyüze": 170,
+    "uzaktan": 122
   },
   "intern_types": {
-    "zorunlu": 141,
+    "zorunlu": 143,
     "gönüllü": 34,
     "zorunlu,gönüllü": 6,
     "zorunlu, gönüllü": 2,
     "gönüllü, zorunlu": 1
   },
   "durations": {
-    "4-hafta": 130,
+    "4-hafta": 132,
     "6-hafta": 84,
     "8-hafta": 86,
     "[4-hafta": 1
   },
-  "recent_applications": 5,
-  "this_week_applications": 33,
-  "this_month_applications": 44
+  "recent_applications": 2,
+  "this_week_applications": 35,
+  "this_month_applications": 46
 }
