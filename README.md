@@ -88,7 +88,7 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 
 ## 📊 İstatistikler
 **Toplam Başvuru:** 193
-**Son 24 Saat:** 2 başvuru
+**Son 24 Saat:** 0 başvuru
 **Bu Hafta:** 35 başvuru
 **Bu Ay:** 46 başvuru
 
@@ -117,11 +117,11 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 
 ### ⏱️ Staj Süresi Tercihleri
 - **4-hafta**: 132 başvuru (68.4%)
-- **8-hafta**: 86 başvuru (44.6%)
+- **8-hafta**: 87 başvuru (45.1%)
 - **6-hafta**: 84 başvuru (43.5%)
 - **[4-hafta**: 1 başvuru (0.5%)
 
-*Son güncelleme: 19.04.2026 04:48*
+*Son güncelleme: 20.04.2026 04:55*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?

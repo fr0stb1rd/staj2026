@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T04:48:01.015912",
+  "generated_at": "2026-04-20T04:55:14.717974",
   "total_applications": 193,
   "categories": {
     "backend": 129,
@@ -15,7 +15,7 @@
     "computer-vision": 13,
     "blockchain": 7,
     "qa": 7,
-    "game": 15,
+    "game": 14,
     "embedded": 21,
     "hardware": 16,
     "": 3,
@@ -36,10 +36,10 @@
   "durations": {
     "4-hafta": 132,
     "6-hafta": 84,
-    "8-hafta": 86,
+    "8-hafta": 87,
     "[4-hafta": 1
   },
-  "recent_applications": 2,
+  "recent_applications": 0,
   "this_week_applications": 35,
   "this_month_applications": 46
 }
