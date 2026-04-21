@@ -87,41 +87,41 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 - Doğru formatta başvuranlar otomatik etiketlenir
 
 ## 📊 İstatistikler
-**Toplam Başvuru:** 193
-**Son 24 Saat:** 0 başvuru
-**Bu Hafta:** 35 başvuru
-**Bu Ay:** 46 başvuru
+**Toplam Başvuru:** 196
+**Son 24 Saat:** 2 başvuru
+**Bu Hafta:** 21 başvuru
+**Bu Ay:** 48 başvuru
 
 ### 🎯 En Çok Tercih Edilen Alanlar
-1. **backend**: 129 başvuru (66.8%)
-2. **data-science**: 84 başvuru (43.5%)
-3. **mobile**: 79 başvuru (40.9%)
-4. **data-analyst**: 65 başvuru (33.7%)
-5. **frontend**: 63 başvuru (32.6%)
-6. **database**: 60 başvuru (31.1%)
-7. **networking**: 30 başvuru (15.5%)
-8. **system**: 29 başvuru (15.0%)
-9. **cyber-security**: 29 başvuru (15.0%)
-10. **embedded**: 21 başvuru (10.9%)
+1. **backend**: 131 başvuru (66.8%)
+2. **data-science**: 86 başvuru (43.9%)
+3. **mobile**: 80 başvuru (40.8%)
+4. **data-analyst**: 66 başvuru (33.7%)
+5. **frontend**: 63 başvuru (32.1%)
+6. **database**: 62 başvuru (31.6%)
+7. **networking**: 30 başvuru (15.3%)
+8. **system**: 29 başvuru (14.8%)
+9. **cyber-security**: 29 başvuru (14.8%)
+10. **embedded**: 21 başvuru (10.7%)
 
 ### 📍 Staj Yeri Tercihleri
-- **yüzyüze**: 170 başvuru (88.1%)
-- **uzaktan**: 122 başvuru (63.2%)
+- **yüzyüze**: 172 başvuru (87.8%)
+- **uzaktan**: 124 başvuru (63.3%)
 
 ### 🎓 Staj Tipi Dağılımı
-- **zorunlu**: 143 başvuru (74.1%)
-- **gönüllü**: 34 başvuru (17.6%)
+- **zorunlu**: 145 başvuru (74.0%)
+- **gönüllü**: 34 başvuru (17.3%)
 - **zorunlu,gönüllü**: 6 başvuru (3.1%)
 - **zorunlu, gönüllü**: 2 başvuru (1.0%)
 - **gönüllü, zorunlu**: 1 başvuru (0.5%)
 
 ### ⏱️ Staj Süresi Tercihleri
-- **4-hafta**: 132 başvuru (68.4%)
-- **8-hafta**: 87 başvuru (45.1%)
-- **6-hafta**: 84 başvuru (43.5%)
+- **4-hafta**: 132 başvuru (67.3%)
+- **8-hafta**: 89 başvuru (45.4%)
+- **6-hafta**: 84 başvuru (42.9%)
 - **[4-hafta**: 1 başvuru (0.5%)
 
-*Son güncelleme: 20.04.2026 04:55*
+*Son güncelleme: 21.04.2026 04:45*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?
