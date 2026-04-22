@@ -87,41 +87,37 @@ Veli Bacik [pm,qa,data-science][uzaktan][zorunlu][4-hafta]
 - Doğru formatta başvuranlar otomatik etiketlenir
 
 ## 📊 İstatistikler
-**Toplam Başvuru:** 159
-**Son 24 Saat:** 0 başvuru
-**Bu Hafta:** 5 başvuru
-**Bu Ay:** 20 başvuru
+**Toplam Başvuru:** 198
+**Son 24 Saat:** 1 başvuru
+**Bu Hafta:** 14 başvuru
+**Bu Ay:** 50 başvuru
 
 ### 🎯 En Çok Tercih Edilen Alanlar
-1. **backend**: 108 başvuru (67.9%)
-2. **data-science**: 73 başvuru (45.9%)
-3. **mobile**: 63 başvuru (39.6%)
-4. **data-analyst**: 56 başvuru (35.2%)
-5. **frontend**: 55 başvuru (34.6%)
-6. **database**: 48 başvuru (30.2%)
-7. **networking**: 22 başvuru (13.8%)
-8. **system**: 22 başvuru (13.8%)
-9. **embedded**: 18 başvuru (11.3%)
-10. **cyber-security**: 17 başvuru (10.7%)
+1. **backend**: 132 başvuru (66.7%)
+2. **data-science**: 86 başvuru (43.4%)
+3. **mobile**: 81 başvuru (40.9%)
+4. **data-analyst**: 65 başvuru (32.8%)
+5. **database**: 63 başvuru (31.8%)
+6. **frontend**: 63 başvuru (31.8%)
+7. **networking**: 30 başvuru (15.2%)
+8. **system**: 29 başvuru (14.6%)
+9. **cyber-security**: 29 başvuru (14.6%)
+10. **embedded**: 20 başvuru (10.1%)
 
 ### 📍 Staj Yeri Tercihleri
-- **yüzyüze**: 140 başvuru (88.1%)
-- **uzaktan**: 99 başvuru (62.3%)
+- **yüzyüze**: 173 başvuru (87.4%)
+- **uzaktan**: 128 başvuru (64.6%)
 
 ### 🎓 Staj Tipi Dağılımı
-- **zorunlu**: 116 başvuru (73.0%)
-- **gönüllü**: 29 başvuru (18.2%)
-- **zorunlu,gönüllü**: 5 başvuru (3.1%)
-- **zorunlu, gönüllü**: 2 başvuru (1.3%)
-- **gönüllü, zorunlu**: 1 başvuru (0.6%)
+- **zorunlu**: 156 başvuru (78.8%)
+- **gönüllü**: 44 başvuru (22.2%)
 
 ### ⏱️ Staj Süresi Tercihleri
-- **4-hafta**: 111 başvuru (69.8%)
-- **8-hafta**: 71 başvuru (44.7%)
-- **6-hafta**: 70 başvuru (44.0%)
-- **4-hafta**: 1 başvuru (0.6%)
+- **4-hafta**: 135 başvuru (68.2%)
+- **8-hafta**: 90 başvuru (45.5%)
+- **6-hafta**: 85 başvuru (42.9%)
 
-*Son güncelleme: 13.04.2026 04:55*
+*Son güncelleme: 22.04.2026 21:30*
 ## FAQ
 
 #### Yeni issue açıyorum ama hemen kapanıyor ne yapsam oluşturamadım. Ne yapmalıyım?

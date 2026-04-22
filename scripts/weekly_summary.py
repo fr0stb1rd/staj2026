@@ -49,16 +49,20 @@ def parse_issue_title(title):
         return None
     
     name, category, location, intern_type, duration = match.groups()
+
+    def clean_and_split(text):
+        return [item.strip() for item in text.replace('[', '').replace(']', '').split(',') if item.strip()]
+
     return {
         "name": name.strip(),
-        "category": [c.strip() for c in category.split(",")],
-        "location": [l.strip() for l in location.split(",")],
-        "intern_type": intern_type.strip(),
-        "duration": [d.strip() for d in duration.split(",")]
+        "category": clean_and_split(category),
+        "location": clean_and_split(location),
+        "intern_type": clean_and_split(intern_type),
+        "duration": clean_and_split(duration)
     }
 
-def fetch_issues_since(since_date):
-    """Belirli bir tarihten sonraki issue'ları çeker"""
+def fetch_issues_since(since_date, until_date=None):
+    """Belirli bir tarih aralığındaki issue'ları çeker"""
     all_issues = []
     page = 1
     per_page = 100
@@ -89,6 +93,8 @@ def fetch_issues_since(since_date):
             filtered_issues = []
             for issue in issues:
                 created_at = datetime.strptime(issue["created_at"], "%Y-%m-%dT%H:%M:%SZ")
+                if until_date and created_at >= until_date:
+                    continue  # Üst sınırı aşanları atla
                 if created_at >= since_date:
                     filtered_issues.append(issue)
                 else:
@@ -135,7 +141,8 @@ def calculate_weekly_stats(issues):
         for loc in parsed["location"]:
             stats["locations"][loc] += 1
         
-        stats["intern_types"][parsed["intern_type"]] += 1
+        for itype in parsed["intern_type"]:
+            stats["intern_types"][itype] += 1
         
         for dur in parsed["duration"]:
             stats["durations"][dur] += 1
@@ -238,15 +245,22 @@ def create_discussion(title, body):
 
 def main():
     # Bu haftanın başlangıcı (Pazartesi)
+    # Bugün Pazartesi ise, geçen haftanın özetini çıkarmak için 7 gün geriye git.
+    # Pazartesi değilse, bu haftanın Pazartesisinden başla.
     today = datetime.now()
     days_since_monday = today.weekday()
-    week_start = today - timedelta(days=days_since_monday)
+
+    if days_since_monday == 0:
+        week_start = today - timedelta(days=7)
+    else:
+        week_start = today - timedelta(days=days_since_monday)
+
     week_start = week_start.replace(hour=0, minute=0, second=0, microsecond=0)
-    week_end = datetime.now()
+    week_end = today.replace(hour=0, minute=0, second=0, microsecond=0)
     
     print(f"Haftalık özet oluşturuluyor: {week_start.strftime('%d.%m.%Y')} - {week_end.strftime('%d.%m.%Y')}")
     
-    issues = fetch_issues_since(week_start)
+    issues = fetch_issues_since(week_start, week_end)
     print(f"Bu hafta {len(issues)} yeni başvuru bulundu")
     
     stats = calculate_weekly_stats(issues)
